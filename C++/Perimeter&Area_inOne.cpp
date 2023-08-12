@@ -12,7 +12,7 @@ int main() {
 
         if (program == 1) {
             while (true) {
-                cout << "1. Square" << endl << "2. Rectangle" << endl << "3. Triangle" << endl << "4 .Rhombus" << endl
+                cout << "1. Square" << endl << "2. Rectangle" << endl << "3. Triangle" << endl << "4. Rhombus" << endl
                      << "5. Parallelogram" << endl << "6. Trapezoid" << endl << "7. Circle" << endl;
                 cout << "Select Your Shape [0] for exit: ";
                 int selShape;
@@ -105,7 +105,7 @@ int main() {
         }
         if (program == 2) {
             while (true) {
-                cout << "1. Square" << endl << "2. Rectangle" << endl << "3. Triangle" << endl << "4 .Rhombus" << endl
+                cout << "1. Square" << endl << "2. Rectangle" << endl << "3. Triangle" << endl << "4. Rhombus" << endl
                      << "5. Parallelogram" << endl << "6. Trapezoid" << endl << "7. Circle" << endl;
                 cout << "Select Your Shape [0] for exit: ";
                 int selShape;
