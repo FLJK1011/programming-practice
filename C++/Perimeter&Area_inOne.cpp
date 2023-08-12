@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 main(){
     cout << "Enter Side of Square : ";
     int squareArea;
