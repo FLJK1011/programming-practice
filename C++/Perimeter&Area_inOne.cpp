@@ -66,7 +66,7 @@ int main() {
                     cout << "Enter Side of Parallelogram : ";
                     double parallelogramSide;
                     cin >> parallelogramSide;
-                    double parallelogram = 2 * (parallelogramBase * parallelogramSide);
+                    double parallelogram = 2 * (parallelogramBase + parallelogramSide);
                     cout << "Your Parallelogram Perimeter is : " << parallelogram << endl;
                 }
                 if (selShape == 6) {
