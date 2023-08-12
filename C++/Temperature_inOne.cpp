@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-main() {
+int main() {
     cout << "1.Celcius to Farenhait" << endl;
     cout << "2.Farenhait to Celcius" << endl;
     cout << "3.Celcuis to Kelvin" << endl;
