@@ -4,12 +4,10 @@
 using namespace std;
 
 int main() {
-
     while (true) {
         cout << "Select Between (1.Perimeter or 2.Area) or [0] for exit : ";
         int program;
         cin >> program;
-
         if (program == 1) {
             while (true) {
                 cout << "1. Square" << endl << "2. Rectangle" << endl << "3. Triangle" << endl << "4. Rhombus" << endl
