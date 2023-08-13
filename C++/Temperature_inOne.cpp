@@ -47,7 +47,7 @@ int main() {
             cin >> kelvin_4;
             cout << endl;
             double celcius_4 = (kelvin_4 - 273.15);
-            cout << "Your °C is : " << celcius_4 << endl;;
+            cout << "Your °C is : " << celcius_4 << endl;
             cout << endl;
         }
         if (temp >= 5) {
