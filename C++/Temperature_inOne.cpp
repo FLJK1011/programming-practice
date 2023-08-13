@@ -1,6 +1,5 @@
-//calculate the transform of temperature units in C++
-
 #include <iostream>
+
 using namespace std;
 
 int main() {
