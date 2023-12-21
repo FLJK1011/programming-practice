@@ -1,9 +1,9 @@
-#include <iostream>
+#include <iostream> 
 
 using namespace std;
 
 int main() {
-    while (true) {
+    while(true) {
         cout << "1.Celcius to Farenhait" << endl;
         cout << "2.Farenhait to Celcius" << endl;
         cout << "3.Celcuis to Kelvin" << endl;
@@ -18,8 +18,14 @@ int main() {
             int celcius_1;
             cin >> celcius_1;
             cout << endl;
-            double farenhait_1 = ((celcius_1 * 1.8) + 32);
-            cout << "Your °F is : " << farenhait_1 << endl;
+            if (celcius_1 < -273.15 && celcius_1 > 1000000) {
+
+            }
+            else {
+                double farenhait_1 = ((celcius_1 * 1.8) + 32);
+                cout << "Your °F is : " << farenhait_1 << endl;
+
+            }
             cout << endl;
         }
         if (temp == 2) {
@@ -46,14 +52,14 @@ int main() {
             cin >> kelvin_4;
             cout << endl;
             double celcius_4 = (kelvin_4 - 273.15);
-            cout << "Your °C is : " << celcius_4 << endl;
+            cout << "Your °C is : " << celcius_4 << endl;;
             cout << endl;
         }
-        if (temp >= 5) {
+        if (temp > 4) {
             cout << "Wrong Chocie" << endl;
         }
-        if (temp == 0)
-        {
+        if (temp == 0) {
+            cout << "good luck ^^ " << endl;
             break;
         }
     }
